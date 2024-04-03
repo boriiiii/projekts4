@@ -1,0 +1,47 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 0;
+}
+.head_logo{
+    a{
+        display: flex;
+        gap: 16px;
+        font-size: 30px;
+        font-weight: bold;
+        color: blue;
+        line-height: 28px;
+        text-decoration: none;
+        align-items: center;
+    }
+}
+.header_navigation{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    nav ul{
+        display: flex;
+        gap: 28px;
+        list-style: none;
+        text-decoration: none;
+        align-items: center;
+        a{
+            text-decoration: none;
+        }
+    }
+}
+.header_btn{
+    display: flex;
+    gap: 20px;
+    align-items: center;    
+    a{
+        text-decoration: none;
+        padding: 10px 23px;
+        border: 1px solid black;
+        border-radius: 4px;
+        &:host{
+            background-color: aquamarine;
+            color: chartreuse;
+        }
+    }
+}
